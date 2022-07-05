@@ -2,6 +2,22 @@ body {
     margin: 0 50px;
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    height: 100vh;
+}
+
+details summary { 
+    cursor: pointer;
+}
+  
+details summary > * {
+    display: inline;
+}
+
+details a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #bd3434;
 }
 
 .main-container {
@@ -10,7 +26,7 @@ body {
     justify-content: space-between;
 }
 
-.aboutMe,
+#aboutMe,
 h1 {
     margin: 0;
     width: 50%;
@@ -18,4 +34,21 @@ h1 {
 
 .profilePic img{
     border-radius: 10px;
+}
+
+#skills {
+    margin-top: 50px;
+}
+
+.fa-solid,
+.fa-brands {
+    margin: 0 7px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }

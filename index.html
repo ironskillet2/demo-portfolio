@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/294fb89939.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,16 +17,16 @@
         <div class="name">Ryan Goodwin</div>
         <nav>
             <ul>
-                <li ><a href="#">About Me</a></li>
-                <li ><a href="#">Projects</a></li>
-                <li ><a href="#">Skills</a></li>
+                <li ><a href="#aboutMe">About Me</a></li>
+                <li ><a href="#projects">Projects</a></li>
+                <li ><a href="#skills">Skills</a></li>
                 <li ><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div class="main-container">
-            <div class="aboutMe">
+            <div id="aboutMe">
                 <h1>About Me</h1>
                 <p>Hello, My name is Ryan Goodwin. I have been studying programming for a few months</p>
                 <p>I started out studying Python, and after having developed a very bare-bones application that 
@@ -40,6 +41,27 @@
                 <img src="https://scontent-nrt1-1.xx.fbcdn.net/v/t1.6435-9/119139260_10157575693477643_5564856174599681743_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=174925&_nc_ohc=dE9PDecgfacAX9jJokw&_nc_ht=scontent-nrt1-1.xx&oh=00_AT8R2L_GmmtKehMLirg41HU2yz3DPNVCWFUz71Dy_r_zSA&oe=62E95237" alt="profile picture" height="250px">
             </div>
         </div>
+        <div id="projects">
+            <h2>Projects</h2>
+            <details class="details">
+                <summary class="summary">
+                    <h3>Flash-Card application</h3>
+                </summary>
+                <img src="./resources/images/flash-card-img.png" alt="image of my flash card app" height="300px">
+                <br>
+                <a href="https://ironskillet2.github.io/flashcard-game/" target="_blank">TRY IT</a>
+            </details>
+        </div>
+        <div id="skills">
+            <h2>Skills</h2>
+            <i class="fa-solid fa-code fa-2xl"></i>
+            <i class="fa-brands fa-css3 fa-2xl"></i>
+            <i class="fa-brands fa-js fa-2xl"></i>
+            <i class="fa-brands fa-html5 fa-2xl"></i>
+        </div>
+        <footer class="footer">
+            <p>This is my footer, take a nice long look</p>
+        </footer>
     </main>
 </body>
 </html>
