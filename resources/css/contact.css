@@ -7,3 +7,13 @@ body {
 .main {
     margin-top: 50px;
 }
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactPic img {
+    border-radius: 7px;
+}
